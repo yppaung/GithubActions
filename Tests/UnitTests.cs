@@ -63,7 +63,7 @@ public class Multiplication
         Assert.AreEqual(6, Program.Multiply("2", "3"));
         Assert.AreEqual(0, Program.Multiply("5", "0"));
         Assert.AreEqual(20, Program.Multiply("4", "5"));
-		Assert.AreEqual(999, Program.Multiply("2", "3")); // intentionally wrong
+		Assert.AreEqual(6, Program.Multiply("2", "3")); 
     }
 	
     [TestMethod]
